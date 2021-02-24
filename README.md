@@ -2,7 +2,7 @@
 
 #### PL
 
-##Strona internetowa stworzona przy pomocy HTML, CSS oraz języka Javascript 
+## Strona internetowa stworzona przy pomocy HTML, CSS oraz języka Javascript 
 Strona zawiera treści mówiące o astrobiologii i fizyce.
 W zakładce 'gra' w znajduje się gra w stylu 'Dino Jump'.
 Zrealizowana została ona przy pomocy języka Javascript oraz canvasJS.
