@@ -3,13 +3,16 @@
 #### PL
 
 ## Strona internetowa stworzona przy pomocy HTML, CSS oraz języka Javascript 
-Strona zawiera treści mówiące o astrobiologii i fizyce.
-W zakładce 'gra' w znajduje się gra w stylu 'Dino Jump'.
-Zrealizowana została ona przy pomocy języka Javascript oraz canvasJS.
 
-#### EN
+### 1. Zawartość merytoryczna 
+Na stronie pojawiają się zagadnienia z dziedziny astrobiologii i fizyki.
+Treści prezentowane są przy pomocy HTML, CSS oraz języka Javascript. 
+Na stronie znajduje się również gra zrealizowana w języku Javascript oraz canvasJS.
 
-## Web page created using HTML, CSS and Javascript language
-The page content's consists of topics related to astrobiology and phisics.
-The 'gra' tab redirects client to page with 'Dino Jump'-styled game.
-The game is implemented using Javascript and canvasJS
+### 2. Język HTML
+Na stronie wykorzystano elementy semantyczne języka HTML5 tj. header, nav, article.
+Treści multimedialne prezentowane są z wykorzystaniem elementów audio
+
+### 3. Grafika w projekcie
+W projekcje grafikę zrealizowano z wykorzystaniem elementu canvas
+
