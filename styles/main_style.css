@@ -1,0 +1,197 @@
+html{
+    height:auto;
+    min-height: 100%;
+}
+
+body{
+  margin: 0;
+  background-image: url(../images/space.jpg);
+  animation: gradient 200s ease infinite;
+  
+}
+
+
+  
+main{
+  animation: transitionIn 0.8s;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+    font-size: 20px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+
+  li a:hover{
+    transition: 0.6s;
+    opacity: 0.6
+  }
+
+  .active {
+    background-color: #282828
+
+  }
+  
+
+  #vid0link{
+    text-decoration: none;
+    color: white;
+    box-shadow: #192043;
+    font-size: 20px;
+    padding-left: 30px;
+    border-color: #000000;
+  }
+  #vid0link:hover{
+    box-sizing: border-box;
+    box-shadow: 2px;
+    opacity: 0.6;
+    transition: 0.5s;
+  }
+ 
+  #section1_link, #section2_link, #section0_link{
+      text-decoration:none;
+      text-align: center;
+      color: white;
+      padding-left: 50px;
+      
+  }
+  #section1_link:hover, #section2_link:hover, #section0_link:hover{
+    transition: 0.6s;
+    opacity: 0.6
+  }
+
+  main h2{
+    padding-left: 40px;
+    animation: glow 1.5s ease-in-out infinite alternate;
+    text-align: left;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+  }
+
+  #par0, #par1, #par2{
+    padding-left: 50px;
+    font-size: 20px;
+    color: white;
+  }
+
+  #paradox_def{
+    padding-left: 100px;
+    padding-top: 40px; padding-bottom: 40px;
+    font-size: 18px;
+    color: white;
+    font-style: italic;
+   
+  }
+  #img1 , #img2{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    padding-left: 30px;
+    width: 10em;
+    height: 10em;
+  }
+
+  #img3, #img4{
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 30px;
+    width: 10em;
+    height: 10em;
+  }
+
+  #img6{
+    max-width: 50%;
+    max-height: 50%;
+  }
+
+  #kardashev_img{
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 80px; padding-bottom: 40px; padding-top: 30px;
+    scale: 130%;
+  }
+
+  #drake_text{
+    font-size: 15px;
+    padding-left: 100px;
+  }
+
+  .cmath{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    margin: 20px 0px 20px 30px;
+    padding-left: 50px; padding-top: 8px; padding-bottom: 8px;
+    white-space : pre;
+  }
+  
+  #footerID{
+    padding-left: 50px;
+    font-size: 15px;
+    color: white;
+    
+  }
+
+  #footerID a{
+    padding-left: 50px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+  }
+
+  #footerID a:hover{
+    transition: 0.4s;
+    opacity: 0.6
+  }
+
+
+  @keyframes transitionIn{
+      from{
+          opacity: 0;
+          transform: rotateX(-20deg);
+      }
+
+      to{
+          opacity: 1;
+          transform: rotateX(0);
+      }
+  }
+
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FF5911, 0 0 40px #FF5911, 0 0 50px #FF5911, 0 0 60px #FF5911, 0 0 70px #FF5911;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #FA976C, 0 0 40px #FA976C, 0 0 50px #FA976C, 0 0 60px #FA976C, 0 0 70px #FA976C, 0 0 80px #FA976C;
+    }
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

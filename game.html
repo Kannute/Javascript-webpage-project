@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJEKT TI</title>
+    <link rel="stylesheet" href="styles/game.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts/game.js"></script>
+</head>
+<body>
+
+    <ul>
+        <li><a  href="index.html">Strona główna</a></li>
+        <li><a class="active" href="game.html">Gra</a></li>
+      
+    </ul>
+    <audio id="my_audio" src="audio/background_theme.mp3" loop="loop" type="audio/mpeg"></audio>
+
+   <p id="game_rules"> 
+        <br>
+        <b>Cel gry: Jak najdłużej wymijaj ciała niebieskie.</b><br>
+        Sterowanie: <br>
+        &nbsp;&nbsp; Lot w górę - "W" lub Spacja. <br>
+        &nbsp;&nbsp; Skórczenie statku - "S" lub Shift <br>
+   </p>
+    <canvas id="myCanvas" width="1000" height="800">
+    </canvas> 
+    
+</body>
+</html>
